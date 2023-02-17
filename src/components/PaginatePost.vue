@@ -1,7 +1,6 @@
 <script setup>
 defineProps(["inicio", "fin", 'maxLength']);
 const emit = defineEmits(["next", "prev"]);
-const actvSiguiente = () => {};
 </script>
 <template>
   <div class="btn-group">
